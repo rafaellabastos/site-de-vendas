@@ -1,10 +1,13 @@
 :root {
     --verde-escuro: #084313;
     --cinza-padrao: #D9D9D9;
+    --rosa-claro: #FEE9E6;
+    --verde-musgo: #818B11;
 
-    --texto-escuro: #FFFFFF;
+    --texto-escuro: #FFFFFF; /* branco */
     --fonte-textos: 'Inter';
     --tamanho-textos: 15px;
+    --tamanho-vermais: 17px;
 }
 
 * {
