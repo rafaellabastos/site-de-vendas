@@ -1,0 +1,53 @@
+.rodape {
+    display: flex;
+    border-top: 1px solid #000000;
+    margin-top: 5%;
+}
+
+.rodape--esquerda {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+.rodape--esquerda--logotipo {
+    max-width: 100px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.rodape--imagem {
+    display: flex;
+    flex-direction: column;
+    margin-left: 4%;
+
+    justify-content: center;
+    margin-top: 1.5%;
+}
+
+.rodape--imagem--instagram {
+    width: 25px;
+}
+
+.rodape--imagem--whatsapp {
+    width: 40px;
+    margin-left: -6px;
+}
+
+.rodape--imagem--email {
+    width: 29px;
+}
+
+.rodape--nome {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    gap: 11px;
+    margin-left: 0.5%;
+    margin-top: 1.5%;
+}
