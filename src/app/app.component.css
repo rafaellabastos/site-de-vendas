@@ -1,3 +1,4 @@
+/* Categorias */
 .categorias {
     display: flex;
     justify-content: center;
@@ -19,13 +20,15 @@
     padding: 8px;
 }
 
+
+/* Mais vendidos */
 .maisvendidos {
     text-align: center;
 }
 
 .maisvendidos--titulo {
     font-family: var(--fonte-textos);
-    margin: 2%;
+    margin: 3%;
 }
 
 .maisvendidos--produto {
@@ -56,5 +59,47 @@
 .maisvendidos--produto--card--vermais {
     padding-top: 10px;
     padding-bottom: 10px;
-    font-size: var(--tamanho-vermais);
+    font-size: 16px;
+}
+
+
+/* Coleção do mês */
+.colecaodomes {
+    text-align: center;
+}
+
+.colecaodomes--titulo {
+    font-family: var(--fonte-textos);
+    margin-top: 8%;
+    margin-bottom: 2%;
+}
+
+.colecaodomes--produto {
+    display: flex;
+    justify-content: center;
+}
+
+.colecaodomes--produto--card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px 20px 10px 10px;
+    margin: 0 auto;
+
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+
+    background-color: var(--verde-musgo);
+    color: var(--texto-escuro);
+    font-family: var(--fonte-textos);
+}
+
+.colecaodomes--produto--card:hover {
+    background-color: var(--verde-escuro);
+}
+
+.colecaodomes--produto--card--vermais {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 20px;
 }
