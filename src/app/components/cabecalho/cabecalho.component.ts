@@ -8,5 +8,4 @@ import { RouterModule } from '@angular/router';
   styleUrl: './cabecalho.component.css'
 })
 export class CabecalhoComponent {
-
 }

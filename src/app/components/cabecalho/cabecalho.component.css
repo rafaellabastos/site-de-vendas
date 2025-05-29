@@ -24,9 +24,9 @@
     height: auto;
     display: block;
 
-    margin-top: 1%;
-    margin-left: 2%;
-    margin-bottom: 1%;
+    margin-top: 20%;
+    margin-left: 20%;
+    margin-bottom: 20%;
 }
 
 .cabecalho--direita {
@@ -55,6 +55,15 @@
 
     max-width: 35px;
     max-height: 35px;
+    width: 100%;
+    height: auto;
+}
+
+.cabecalho--entrar {
+    display: flex;
+
+    max-width: 30px;
+    max-height: 30px;
     width: 100%;
     height: auto;
 }
