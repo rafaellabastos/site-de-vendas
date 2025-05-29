@@ -4,7 +4,7 @@
     text-align: center;
 }
 
-.titulo--login {
+.titulo--cadastro {
     font-family: var(--fonte-textos);
     color: var(--texto-escuro);
 
@@ -71,4 +71,11 @@
     color: #000000;
     font-family: var(--fonte-textos);
     font-size: var(--tamanho-textos);
+}
+
+@media print {
+    .body{
+        background-color: #000000;
+    }
+    
 }
