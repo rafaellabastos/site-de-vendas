@@ -1,0 +1,38 @@
+.menulateral {
+    background-color: var(--cinza-padrao);
+    width: 220px;
+    margin: 2%;
+    padding: 0.5% 0 1% 1%;
+}
+
+.menulateral--dadospessoais, .menulateral--meuspedidos, .menulateral--meuendereco, .menulateral--devolucao, .menulateral--alterarsenha, .menulateral--sair {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+
+    margin-top: 5%;
+}
+
+.menulateral--texto {
+    font-family: var(--fonte-textos);
+    font-size: var(--tamanho-textos);
+}
+
+.menulateral--dadospessoais--icone {
+    width: 20px;
+}
+
+.menulateral--meuspedidos--icone, .menulateral--meuendereco--icone {
+    width: 27px;
+    margin-left: -4px;
+}
+
+.menulateral--devolucao--icone, .menulateral--alterarsenha--icone {
+    width: 25px;
+    margin-left: -4px;
+}
+
+.menulateral--sair--icone {
+    width: 25px;
+}

@@ -48,6 +48,8 @@
     background-repeat: no-repeat;
     background-position: 10px;
     background-size: 18px;
+
+    padding-left: 35px;
 }
 
 .cabecalho--minhaconta, .cabecalho--carrinho {
