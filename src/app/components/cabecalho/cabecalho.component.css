@@ -67,3 +67,13 @@
     width: 100%;
     height: auto;
 }
+
+@media print {
+    .desconto-pix {
+        display: none;
+    }
+
+    .cabecalho {
+        display: none;
+    }
+}

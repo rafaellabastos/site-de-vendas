@@ -42,9 +42,9 @@
     background-color: var(--cinza-padrao);
 }
 
-.formulario--botao {
-    margin-top: 4%;
-    margin-bottom: 3%;
+.formulario--botao--capsula {
+    margin-top: 15%;
+    margin-bottom: 15%;
 
     font-family: var(--fonte-textos);
     background-color: var(--rosa-claro);
@@ -54,7 +54,7 @@
     border: 1px solid #000000;
 }
 
-.formulario--botao:hover {
+.formulario--botao--capsula:hover {
     color: var(--texto-escuro);
     background-color: var(--verde-musgo);
 }
@@ -74,8 +74,31 @@
 }
 
 @media print {
-    .body{
-        background-color: #000000;
+    .titulo {
+        -web-print-color-adjust: exact;
+        print-color-adjust: exact;
     }
-    
+
+    .formulario--botao--capsula, .chamada {
+        display: none;
+    }
+
+    .formulario--botao {
+        margin-bottom: 8%;
+    }
+
+    .quebra-pagina {
+        display: block;
+        page-break-before: always;
+        break-before: page;
+    }
+
+    @page {
+        margin-bottom: 3cm;
+        @bottom-right {
+            content: "Página " counter(page);
+            font-size: 12px;
+            font-family: var(--fonte-textos);
+        }
+    }
 }
